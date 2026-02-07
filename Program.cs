@@ -43,3 +43,9 @@ employeeRoute.MapPost(string.Empty, (Employee employee) =>
     return Results.Created($"/employees/{employee.Id}", employee);
 });
 app.Run();
+
+
+public partial class Program
+{
+    
+}
